@@ -2,8 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
-  finalizers:
-  - sample-finalizer.argocd.argoproj.io/sample
+  # finalizers:
+  # - sample-finalizer.argocd.argoproj.io/sample
 #   annotations:
 #     argocd.argoproj.io/hook: PreSync
 spec:
